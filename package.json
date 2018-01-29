@@ -1,0 +1,24 @@
+{
+  "name": "deeres-utilities",
+  "version": "1.0.0",
+  "description": "Utilitites for Gammapeit Deeres internal product use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gammapeit/deeres-utilities.git"
+  },
+  "keywords": [
+    "gammapeit",
+    "deeres",
+    "utilitites"
+  ],
+  "author": "Jose Buelvas <jbuelvas@gammapeit.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gammapeit/deeres-utilities/issues"
+  },
+  "homepage": "https://github.com/gammapeit/deeres-utilities#readme"
+}
