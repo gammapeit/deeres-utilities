@@ -9,7 +9,9 @@
  * @platformURL         https://passqlub.com (http://bquest.co)
  */
 const paths = require( './includes/path' );
+const menuLocations = require( './includes/menu-locations' );
 
 module.exports = {
-	PATHS: paths
+	PATHS: paths,
+	MENU: menuLocations
 };
