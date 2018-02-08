@@ -1,6 +1,6 @@
 {
   "name": "deeres-utilities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utilitites for Gammapeit Deeres internal product use",
   "main": "index.js",
   "scripts": {
