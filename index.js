@@ -8,10 +8,47 @@
  * @companyURL          https://www.gammapeit.com
  * @platformURL         https://passqlub.com (http://bquest.co)
  */
-const paths = require( './includes/path' );
-const menuLocations = require( './includes/menu-locations' );
+
+const fs = require( 'fs' );
 
 module.exports = {
-	PATHS: paths,
-	MENU: menuLocations
+	/**
+	 * Paths for locations
+	 */
+	PATHS: {
+		CDN: "cdn/", // Dependencies
+		MODULES: "module/", // Developed modules
+		CORE: "core/" // Core application public resources
+	},
+	/**
+	 * Locations for menu
+	 */
+	MENU: {
+		SIDEBAR: "SIDEBAR",
+		CREATE: "CREATE",
+		SETTINGS: "SETTINGS",
+		CONTEXT: "CONTEXT"
+	},
+	/**
+	 * Module location.
+	 */
+	LOCATION: {
+		DASHBOARD: "DASHBOARD",
+		PUBLIC: "PUBLIC"
+	},
+	/**
+	 * Add custom action cards.
+	 *
+	 * @param callback
+	 * @param location
+	 * @param size
+	 * @returns {{link: *, location: string, size: string}}
+	 */
+	addCard: ( callback, location = 'DESKTOP', size = 'FULL' ) => {
+		return {
+			link: callback,
+			location: location,
+			size: size
+		}
+	}
 };
